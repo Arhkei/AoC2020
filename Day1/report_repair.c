@@ -21,7 +21,7 @@ int main(){
 	int counter = 0;
 	while(!feof(fptr)){
 		fscanf(fptr, "%d", &reportNumbers[counter]);
-		counter ++;
+		counter++;
 	}
 	fclose(fptr);
 	part_one(reportNumbers, counter);
